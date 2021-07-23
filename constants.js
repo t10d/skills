@@ -114,11 +114,11 @@ export const tracks: Tracks = {
     displayName: "Mobile",
     category: "A",
     description:
-      "Desenvolve expertise em desenvolvimento mobile nativo, sendo iOS ou Android",
+      "Desenvolve expertise em desenvolvimento mobile, sendo iOS, Android ou Híbrido",
     milestones: [
       {
         summary:
-          "Trabalha bem com arquiteturas iOS ou Android bem estabelecidas, seguindos as boas práticas",
+          "Trabalha bem com arquiteturas iOS, Android ou Híbrido bem estabelecidas, seguindos as boas práticas",
         signals: [
           "Entrega funcionalidades que requerem modificações locais simples",
           "Adiciona ações simples que chamam serviços do servidor",
@@ -135,20 +135,20 @@ export const tracks: Tracks = {
           "Desenvolve novas instâncias de arquitetura existente ou cria pequenas melhorias na mesma",
         signals: [
           "Define novos objetos proto-gerados úteis e apropriados",
-          "Cria novas atividades simples no Android",
+          "Cria novas Activities simples no Android",
           "Migra código de padrões antigos para novos padrões",
         ],
         examples: [
           "Fez o upgrade de SDWebImage para a nova versão",
           "Adicionou suporte para renderizar um novo tipo de serviço",
-          "Prototipo nova funcionalidade simples rapidamente",
+          "Prototipou nova funcionalidade simples rapidamente",
         ],
       },
       {
         summary:
           "Planeja features grandes e demonstra profundo conhecimento dos limites da plataforma mobile",
         signals: [
-          "Implementa features complexas em produto grande",
+          "Traz feedbacks úteis para o design e sugere alternativas plausíveis",
           "Trabalha bem com o framework de programação reativa do Android",
           "Adiciona suporte para novas funcionalidades iOS depois de grandes atualizações iOS",
         ],
@@ -160,14 +160,14 @@ export const tracks: Tracks = {
       },
       {
         summary:
-          "Contrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
+          "Constrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
         signals: [
           "É pioneiro ao trazer novas estratégias de migração de arquitetura que reduzem a carga de outros engenheiros",
           "Conserta problemas de gerenciamento de memória",
           "Implementa interações prazerosas",
         ],
         examples: [
-          "Atualizou CocoaPods para nova versão",
+          "Criou projeto com arquitetura MVVM seguindo as diretrizes do DDD e Clean Architecture",
           "Projetou arquitetura para buscar e renderizar items de uma stream",
           "Migrou camada de persistência do Android para programação reativa",
         ],
@@ -190,7 +190,7 @@ export const tracks: Tracks = {
   },
 
   WEB_CLIENT: {
-    displayName: "Front-end",
+    displayName: "Web Client",
     category: "A",
     description:
       "Desenvolve habilidades em tecnologias web, como HTML, CSS e JavaScript",
@@ -233,13 +233,13 @@ export const tracks: Tracks = {
         ],
         examples: [
           "Fez estratégia de SSG para checkout da Flix",
-          "Pesquisou sobre a utilidade dos service workers",
+          "Pesquisou e apresentou ao time sobre a utilidade dos service workers",
           "Desenhou e implementou tela de distribuições da Troflo",
         ],
       },
       {
         summary:
-          "Contrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
+          "Constrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
         signals: [
           "Migrou a arquitetura do projeto de client-side para server-side",
           "Implementou transição de tela super prazerosa",
@@ -247,8 +247,8 @@ export const tracks: Tracks = {
         ],
         examples: [
           "Criou template CRA para projetos client-side",
-          "Criou biblioteca para criação de emails com React",
-          "Ajudou na migração de cliente graphQL para Relay seguindo os padrões",
+          "Criou biblioteca de design system da T10",
+          "Ajudou na migração de cliente graphQL para Relay seguindo os padrões adequados",
         ],
       },
       {
@@ -260,55 +260,55 @@ export const tracks: Tracks = {
           "Define visão de longo termo para tecnologias web e garante que os projetos estão em conformidade",
         ],
         examples: [
-          "Criou CSS in JS",
-          "Definiu e guiou a migração do time para nova tecnologia",
-          "Implementou fluxo de dados unidirecional",
+          "Pesquisou, avaliou o ROI e impacto e implantou a adoção de ReScript",
+          "Planejou e implementou processos de deploy e infraestrutura de aplicações front-end SPA e SSR para toda a T10 ",
+          "Fez contribuições chave para o React",
         ],
       },
     ],
   },
 
   FOUNDATIONS: {
-    displayName: "Conceitos",
+    displayName: "Fundamentos",
     category: "A",
     description:
-      "Desenvolve expertise em sistemas computacionais, como deployments, pipelines, bancos de dados e machine learning",
+      "Exibe expertise em sistemas e princípios fundamentais da computação, como deployments, pipelines, base de dados, linguagens e lógicas de programação",
     milestones: [
       {
         summary:
-          "Trabalha bem com arquiteturas já pré-estabelecidas, seguindo as boas práticas",
+          "Trabalha de forma efetiva com paradigmas, linguagens e sistemas existentes",
         signals: [
           "Escreveu postmortems criteriosos para falhas em serviços",
           "Faz pequenas mudanças de configurações em serviços",
           "Faz backfills de forma segura e efetiva",
         ],
         examples: [
-          "Fez mudanças seguras e efetivas num serviço da AWS",
-          "Implementou novas mudanças nos pipelines ETL baseado nas anteriores",
-          "Resolveu erros de disco independentemente",
+          "Realiza alterações em um pipeline de CI/CD existente",
+          "Implementou um novo pipeline ETL em um framework e definições já existentes",
+          "Entende os trade-offs sobre o uso de determinadas estruturas de dados em JavaScript",
         ],
       },
       {
         summary:
-          "Desenvolve novas instâncias de uma arquitetura existente, ou pequenas melhorias nesta arquitetura",
+          "Conhecimento intermediário em uma linguagem e sobre o comportamento de sistemas existentes",
         signals: [
           "Fez pequenas atualizações em tecnologias",
           "Construiu jobs de machine learning dentro do framework ML",
           "Faz triagem de problemas corretamente",
         ],
         examples: [
-          "Atualizou NodeJS de 8.0 para 8.1.1",
-          "Fez pacotes custom para RPMs",
-          "Melhorou a eficiência do ETL aprimorando o carregamento do Dynamo para S3",
+          "Identificou e definiu padrões e anti-padrões comuns durante o processo de modelagem de dados",
+          "Contribui de forma efetiva para bibliotecas suporte com utilitários usados em vários projetos na T10",
+          "Apoia na manutenção de scripts para configuração e uso de ambiente AWS através da CLI",
         ],
       },
       {
         summary:
-          "Projeta sistemas de complexidade moderada ou novas grandes funcionalidades em sistemas existentes",
+          "Conhecimento avançado em uma ou mais linguagens, é capaz de realizar melhorias sobre sistemas, modelos e paradigmas atuais	",
         signals: [
-          "Atua como principal mantenedor de sistemas críticos",
-          "Projeta sistemas moderamente complexos",
-          "Faz grandes atualizações em bibliotecas",
+          "Entende e sabe usar eficientemente o modelo de concorrência implementado no CPython",
+          "Implementou um pipeline CI/CD genérico que pode ser usado para todos os projetos que usam ETL com AWS Lambda",
+          "Desenhou esquema de padronização de configurações de serviços multi-cloud para a T10: AWS, GCP, Azure",
         ],
         examples: [
           "Projetou o pipeline de dados da Troflo",
@@ -318,109 +318,109 @@ export const tracks: Tracks = {
       },
       {
         summary:
-          "Contrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
+          "Conhecimento amplo em mais de uma linguagem e domínio de fundamentos de sistemas, direcionados a melhorias críticas e estrutrurais a processos existentes",
         signals: [
           "Desenhou projetos complexos que englobam multiplos sistemas e tecnologias",
           "Demonstra conhecimento profundo de sistemas computacionais",
           "Introduz novas bases de dados e tecnologias que cumprem necessidades",
         ],
         examples: [
-          "Projetou e construiu o sistema de deploys baseado em containers para toda a empresa",
-          "Desenhou a gestão de configurações da AWS",
-          "Introduziu Kinesis e foi pioneiro em pipelines de streaming de eventos",
+          "Introduziu o uso do RabbitMQ e definiu o plano de implantação e uso nos projetos da T10",
+          "Desenhou um framework de ETL multi-cloud",
+          "Construiu e implementou a stack e a padronização da observabilidade dos sistemas da T10",
         ],
       },
       {
         summary:
-          "É um expert em tecnologias web e cria estratégias para direcionar o time de engenharia",
+          "Expert em fundamentos computacionais, com domínio reconhecido de alguma área (linguagem, compilador, sistema operacional, base de dados) e aplica este conhecimento de forma a trazer vantagem competitiva na T10",
         signals: [
           "Desenha projetos transformacionais em prol dos objetivos de longo prazo",
           "Define a estratégia e visão para o trabalho com sistemas",
           "Inventa técnicas para resolver problemas complexos",
         ],
         examples: [
-          "Inventou uma nova técnica de ML que avançou o estado da arte",
-          "Definiu e desenvolveu a estratégia de entrega contínua da empresa",
-          "Desenvolveu e implementou estratégia de alta disponibilidade",
+          "Desenhou e implantou a infraestrutura e sua disponibilidade para um produto usado por milhões de usuário",
+          "Planejou e implementou de migração de infraestrura para um framework agnóstico a cloud",
+          "Fez contribuições chave para simplificar o modelo de concorrência do Rust",
         ],
       },
     ],
   },
 
   SERVERS: {
-    displayName: "Back-end",
+    displayName: "Servidores",
     category: "A",
     description:
-      "Desenvolve expertise em engenharia do lado do servidor, usando tecnologias como Python, Go, NodeJS ou Elixir",
+      "Expertise na implementação de funcionalidades relacionadas ao servidor",
     milestones: [
       {
         summary:
-          "Trabalha efetivamente com frameworks bem definidos, seguindo as boas práticas",
+          "Contribui de forma efetiva com práticas e frameworks já estabelecidos, seguindo melhores práticas",
         signals: [
-          "Adiciona novos endpoints NodeJS usando arquitetura de camadas",
-          "Adicinoa endpoints Golang usando a arquitetura Gotham",
-          "Faz pequenas mudanças no servidor para ajudar com as necessidades do cliente",
+          "Adiciona rotas simples em um sistema com Python usando o framework Starlette e Ariadne",
+          "Escreve consultas SQL simples",
+          "Segue todos os passos necessários para realizar uma migração simples",
         ],
         examples: [
-          "Adicionou novo trigger de webhook",
-          "Adicinou nova rota de deletar produto",
-          "Fez uma query no Dynamo LSI de forma apropriada",
+          "É capaz de configurar um worker Lambda para envio de emails usando o serviço AWS SNS.",
+          "Entende os conceitos e pontos chave da arquitetura atual",
+          "Escreve testes unitários simples",
         ],
       },
       {
         summary:
-          "Desenvolve novas instâncias de arquitetura existente ou cria pequenas melhorias na mesma",
+          "Contribui ativamente para melhorias de arquiteturas existentes, seja por novas features ou melhorias",
         signals: [
-          "Avalia o código existente e evita copiar e colar código de forma indevida",
-          "Generaliza código quando apropriado",
-          "Determina necessidades de dados de acordo com o requisitos do produto",
+          "É capaz de levantar pontos relevantes nas revisões de código dos pares",
+          "Identifica e usa alguns de padrões e anti-padrões relevantes a linguagem em uso",
+          "É capaz de mapear novos domínios baseados em necessidades do negócio",
         ],
         examples: [
-          "Identificou necessidade de um novo index no Dynamo",
-          "Atua como guardião do roteamento",
-          "Atualizou a versão da API do Facebook e as dependências do código",
+          "Identifica a necessidade de um index em uma tabela",
+          "Implementou uma integração simples, com uma API de pagamentos superficial, sem testes",
+          "É capaz de desenhar e implementar modelos relacionais evitando erros comuns",
         ],
       },
       {
         summary:
-          "Projeta sistemas de complexidade moderada ou novas grandes funcionalidades em sistemas existentes",
+          "Desenha e arquiteta sistemas de complexidade moderada do zero, ou grandes funcionalidades em sistemas existentes",
         signals: [
-          "Atua como mantenedor principal de sistemas críticos",
-          "Integra serviços de terceiros de forma efetiva",
-          "Escreve playbooks para manutenção de novos serviços",
+          "Age como mantenedor principal de sistemas críticos",
+          "Pontua trade-offs e diferentes abordagens na resolução de problemas críticos",
+          "Escreve playbooks para rotinas comuns de manutenção, migração e atualização de serviços",
         ],
         examples: [
-          "Implementou login com Auth0",
-          "Implementou integração com nova API de pagamentos",
-          "Criou novo sistema standalone para resolver problema moderado",
+          "Implementou do zero um sistema suficientemente genérico de autorização de usuários",
+          "Integrou de forma eficiente um serviço terceiro complexo, com cobertura de testes em todas as camadas",
+          "Levanta, desenha e implementa e de forma eficiente regras de negócio críticas e complexas",
         ],
       },
       {
         summary:
-          "Contrói arquiteturas complexas e reutilizáveis que trazem boas práticas e permite com que os outros engenheiros trabalhem de forma mais efetiva",
+          "Constroi arquiteturas complexas, reusáveis e que surtem e ganhos positivos efeitos em vários projetos, definindo melhores práticas para outros engenheiros",
         signals: [
-          "Entrega sistemas complexos que cumprem seus objetivos",
-          "Evita erros arquiteturais sutis quando está modelando novos sistemas",
-          "Toma atitudes apropriadas buy vs make",
+          "Implementou as alterações para migrar uma arquitetura serverful para uma arquitetura serverless",
+          "Evita erros e caminhos comuns no desenho e implementação de arquiteturas",
+          "Experiência em refatorar, otimizar e trabalhar com diferentes tipos de arquiteturas e sistemas de grande porte",
         ],
         examples: [
-          "Projetou arquitetura de feed de notícias",
-          "Projetou arquitetura de domínios customizados",
-          "Criou o framework Gotham para criar serviços em Go",
+          "Implantou práticas de desenvolvimento como TDD e metodologias de modelagem como DDD",
+          "Introduziu o uso de uma arquitetura de sistemas orientadas a eventos, e seus padrões como CQRS e Event Sourcing",
+          "Desenhou o framework para aplicações backend base para os projetos da T10",
         ],
       },
       {
         summary:
-          "É um expert em tecnologias do lado do servidor e cria estratégias para direcionar o time de engenharia",
+          "É referência na área, participou no desenho e na implementação de sucesso de vários sistemas críticos que apoiam produtos usados por milhões de pessoas",
         signals: [
-          "Desenha projetos transformacionais de complexidade e escopo significante",
-          "Toma decisões que possuem impactos positivos e de longo prazo",
-          "Identifica e resolve problemas sistêmicos com arquiteturas atuais",
+          "É peça chave para identificar e determinar o planejamento estratégico de serviços da T10",
+          "Toma decisões que impactam todo a equipe de engenharia a fim de colher frutos a médio e longo prazo",
+          "É responsável por identificar e garantir a qualidede técnica da infraestrutura e tecnologia usados pelos serviços",
         ],
         examples: [
-          "Pesquisou, votou e guiou a escolha de Go como linguagem tipada estaticamente da empresa",
-          "Definiu migração para arquiteturas de microsserviços",
-          "Definiu e implementou PI importante para o sucesso da empresa",
+          "Pesquisou, avaliou o ROI e impacto e implantou a adoção de Java e Golang",
+          "Planejou e implementou de migração de tecnologia de infraestrura para estar agnóstico a provedores cloud",
+          "Desenhou e implementou serviços e sistemas que deram vantagem competitiva a T10",
         ],
       },
     ],
@@ -582,7 +582,7 @@ export const tracks: Tracks = {
   },
 
   CRAFT: {
-    displayName: "Craft",
+    displayName: "Qualidade",
     category: "B",
     description:
       "Incorpora e promove práticas para garantir excelente qualidade de produtos e serviços",
@@ -595,9 +595,9 @@ export const tracks: Tracks = {
           "Escreve comentários claros e boas documentações",
         ],
         examples: [
-          "Pegou um bug no produto antes de ir para produção",
-          "Entregou código complexo de forma legível sem necessidade de comentários extras",
-          "Escreveu testes para os casos de uso felizes e tristes",
+          "Cria testes unitários simples",
+          "Executa testes manuais de acordo com o plano de testes",
+          "Escreveu testes E2E para os casos de uso felizes e tristes",
         ],
       },
       {
@@ -606,26 +606,26 @@ export const tracks: Tracks = {
         signals: [
           "Refatorou condigo existente para torná-lo mais testável",
           "Adicionou testes em partes sem cobertura",
-          "Apagou código desnecessário",
+          "É capaz de mapear novos casos de teste baseados em necessidades do negócio",
         ],
         examples: [
-          "Requisitou testes para um PR como reviewer",
-          "Reduziu o número de exceções do sistema",
-          "Fez um TODO para outra pessoa",
+          "Identifica a necessidade de um novo caso de teste",
+          "Implementa testes de API",
+          "Refatorou teste E2E antigo colocando seletores corretos no DOM e garantindo longevidade do teste",
         ],
       },
       {
         summary:
           "Aumenta a habilidade de outros entregarem produtos de boa qualidade",
         signals: [
-          "Implementou sistemas que são mais fáceis de testar",
-          "Faz code reviews bem pensados e colocados como um expert no domínio",
-          "Adiciona ferramentas para melhorar a qualidade de código",
+          "Desenha e arquiteta planos de teste de complexidade moderada do zero, ou grandes modificações em planos existentes",
+          "Levanta, desenha e garante a implementação correta de forma eficiente regras de negócio críticas e complexas",
+          "Escreve playbooks para rotinas comuns de manutenção e atualização de testes",
         ],
         examples: [
           "Fez com que testes independentes rodassem em paralelo, aumentando a velocidade de testes",
-          "Adicionou nova ferramenta de telemetria para produtos",
-          "Trouxe nova ferramenta para testes visuais",
+          "Construiu testes para integração com terceiro",
+          "Implementou do zero um plano de teste num novo projeto relativamente simples",
         ],
       },
       {
@@ -637,8 +637,8 @@ export const tracks: Tracks = {
           "Coordena novas mudanças de padrões de código com o time",
         ],
         examples: [
-          "Adicionou report de cobertura de código no pipeline CI de iOS",
-          "Iterou repetidamente para desenvolver novo template de padrão de código",
+          "Introduziu o uso de testes mobile, construindo um guia de boas práticas para toda a equipe",
+          "Definiu e implementou os planos de testes padrões para cada tipo de projeto",
           "Definiu e supervisionou plano para acabar uma vulnerabilidade de sistema",
         ],
       },
@@ -651,9 +651,9 @@ export const tracks: Tracks = {
           "Negocia tempo e recurso com o time de executivos para garantir boa qualidade",
         ],
         examples: [
-          "Negociou recurso para time de qualidade de seu projeto com o time executivo",
-          "Instituiu e garantiu processo para report de bugs",
-          "Começou o comitê de qualidade",
+          "Desenhou e implementou processos de qualidade que deram vantagem competitiva a T10",
+          "Planejou e implementou o uso de ferramentas para colhimento de métricas de usuários nas aplicações da T10",
+          "Responsável pela pesquisa, avaliação de impacto e plano de adoção do Taiko e Puppeteer",
         ],
       },
     ],
@@ -916,8 +916,7 @@ export const tracks: Tracks = {
         ],
       },
       {
-        summary:
-          "Cria um ambiente positivo e engajador para membros do grupo",
+        summary: "Cria um ambiente positivo e engajador para membros do grupo",
         signals: [
           "Elogia experiência dos pares para criar empatia e compaixão",
           "Valida trabalho em andamento e sustenta motivação",
