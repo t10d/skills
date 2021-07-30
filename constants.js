@@ -514,7 +514,7 @@ export const tracks: Tracks = {
         signals: [
           "Comunica status do projeto com clareza e efitividade",
           "Colabora com empatia com colegas",
-          "Pede ajuda no Asks for help at the appropriate juncture",
+          "Pede ajuda de maneira apropriada",
         ],
         examples: [
           "Fez o update do Linear antes de começar seu dia",
